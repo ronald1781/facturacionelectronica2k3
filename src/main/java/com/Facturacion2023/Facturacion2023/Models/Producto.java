@@ -1,8 +1,9 @@
-package Models;
+package com.Facturacion2023.Facturacion2023.Models;
 
-import jakarta.validation.constraints.NotNull;
+
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "producto")
