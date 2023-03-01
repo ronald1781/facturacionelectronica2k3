@@ -1,4 +1,4 @@
-package Models;
+package com.Facturacion2023.Facturacion2023.Models;
 
 import javax.persistence.*;
 
@@ -9,7 +9,6 @@ public class Detalle {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true,nullable = false)
     private Integer iddetalle; // auto incremental
-    private Integer docu_codigo;// codigo de cabecera
     private String item_orden; // 1- mas
     private String item_unidad;//  NIU UNIDAD PARA BIEN   Y ZZ UNIDAD PARA SERVICIO
     private String item_cantidad;//
@@ -33,13 +32,6 @@ public class Detalle {
         this.iddetalle = iddetalle;
     }
 
-    public Integer getDocu_codigo() {
-        return docu_codigo;
-    }
-
-    public void setDocu_codigo(Integer docu_codigo) {
-        this.docu_codigo = docu_codigo;
-    }
 
     public String getItem_orden() {
         return item_orden;

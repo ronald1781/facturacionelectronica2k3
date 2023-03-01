@@ -1,4 +1,4 @@
-package Models;
+package com.Facturacion2023.Facturacion2023.Models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
