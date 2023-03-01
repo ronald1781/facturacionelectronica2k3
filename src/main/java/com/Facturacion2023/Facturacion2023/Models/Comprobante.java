@@ -10,8 +10,8 @@ public class Comprobante {
     @Column(unique = true,nullable = true)
     private Integer indice;
     private String punto_venta;
-    private String nombre;
-    private String serie;
+    private String nombre; //BOLETA,TICKET,FACTURA,NOTA_CREDITO,GUIA REMISION
+    private String serie; ////B001,0001,F001,FC01,BC01,T001
     private String correlativo;
 
     public Integer getIndice() {
